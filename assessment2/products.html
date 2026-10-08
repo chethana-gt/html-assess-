@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .navbar{
+            height: 70px;
+            width: 100%;
+            background: linear-gradient(to right, #cc5333, #23074d);
+            display: flex;
+        }
+
+        .logo{
+            height: 70px;
+            flex-basis: 10%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .logo img{
+            height: 60px;
+            width: 60px;
+            border-radius: 50%;
+        }
+
+        .menu{
+            height: 70px;
+            flex-basis: 75%;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        .menu a{
+            color: aliceblue;
+            font-size: larger;
+            text-decoration: none;
+        }
+
+        .menu a:hover{
+            border-bottom: 1px solid aliceblue;
+            color: goldenrod;
+        }
+
+        .icons{
+            height: 70px;
+            flex-basis: 15%;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            font-size: xx-large;
+            color: aliceblue;
+        }
+
+        table{
+            width: 100%;
+            margin-top: 50px;
+        }
+
+        th{
+            padding: 20px;
+        }
+
+        th img{
+            width: 100px;
+            height: 100px;
+        }
+
+        th h2{
+            margin: 10px;
+        }
+
+        th h3{
+            margin: 10px;
+        }
+
+        th p{
+            font-weight: normal;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <aside class="logo">
+            <img src="./BestFriends.png" alt="">
+        </aside>
+
+        <aside class="menu">
+            <a href="home.html">Home Page</a>
+            <a href="users.html">Users</a>
+            <a href="products.html">Products</a>
+            <a href="login.html">Login</a>
+            <a href="register.html">Register</a>
+        </aside>
+
+        <aside class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+        </aside>
+    </nav>
+
+    <table>
+        <tr>
+            <th>
+                <img src="https://www.caretobeauty.com/cdn-cgi/image/width=1440,height=1200,f=auto/media/catalog/product//m/-/m-a-c-cosmetics-m-a-cximal-matte-lipstick-617-velvet-teddy-3-5g.jpg" alt="not found">
+                <h2>Velvet Teddy Lipstick</h2>
+                <h3><del>2000</del> 1500</h3>
+                <p>Soft matte lipstick with a smooth finish and long-lasting color.</p>
+            </th>
+
+            <th>
+                <img src="https://www.caretobeauty.com/cdn-cgi/image/width=1440,height=1200,f=auto/media/catalog/product//y/v/yves-saint-laurent-make-me-blush-bold-blurring-blush-54-berry-bang-6g.jpg" alt="not found">
+                <h2>Berry Blush</h2>
+                <h3><del>2000</del> 1500</h3>
+                <p>Beautiful berry shade that gives your cheeks a natural and fresh look.</p>
+            </th>
+
+            <th>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCXyTA_-PJszFIYaedbfZpmWLf7WYSQ-mqP-qRVtDKYQ&s" alt="not found">
+                <h2>Makeup Foundation</h2>
+                <h3><del>2000</del> 1500</h3>
+                <p>Lightweight foundation that provides smooth and even skin coverage.</p>
+            </th>
+
+            <th>
+                <img src="https://m.media-amazon.com/images/I/51+sn8fCMvL._AC_UF1000,1000_QL80_.jpg" alt="not found">
+                <h2>Face Cream</h2>
+                <h3><del>2000</del> 1500</h3>
+                <p>Moisturizing face cream that keeps your skin soft, smooth, and hydrated.</p>
+            </th>
+        </tr>
+    </table>
+
+</body>
+</html>
